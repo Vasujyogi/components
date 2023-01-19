@@ -5,8 +5,8 @@ export default function Navigation(){
 		<div className="navbar">
 			<Link to="/">Home</Link>
 			<Link to="/Login"> Login</Link>
-			<Link to="/ProductsData">ProductsData</Link>
-			<Link to="/Cart">Cart</Link>
+			<Link to="/products">ProductsData</Link>
+			<Link to="/Contact">Contact</Link>
 		</div>
 	)
 }

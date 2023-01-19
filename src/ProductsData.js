@@ -6,13 +6,6 @@ class ProductsData extends React.Component{
     state = {
         Products:[
             {
-                name: "hp Spectre x360",
-                image: <img src="https://whatithingco.com/wp-content/uploads/2020/07/2020-HP-Spectre-X360-13-Laptop-image-3-copy-1024x768.jpg" alt='laptop image'
-                    width={200} height={200} />,
-                description: 'hp spectre x360 is a laptop with 16" 4k oled screen',
-                price: ' ₹1,50,000'
-            },
-            {
                 name: "Galaxy S22+",
                 image: <img src="https://www.cnet.com/a/img/resize/20ddb34526723119296f9c16795a69434718eccd/hub/2022/02/11/7ca46cb8-01a8-471d-940c-416e94fc0671/samsung-s22-plus-hands-on-003.jpg?auto=webp&fit=crop&height=675&width=1200" alt='galaxt s22 image'
                 width={300} height={200} />,

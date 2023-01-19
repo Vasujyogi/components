@@ -4,7 +4,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Home'
 import Login from './Login'
 import ProductsData from './ProductsData'
-import Cart from './Cart'
+import Contact from './Contact'
 import Navigation from './Navigation'
 import NotFound from './NotFound'
 function App(){
@@ -16,10 +16,10 @@ function App(){
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/products" element={<ProductsData/>}/>
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
-      </BrowserRouter>
+       </BrowserRouter>
     </div>
   );
 }
